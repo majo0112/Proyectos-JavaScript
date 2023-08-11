@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenedor de la tarjeta */
+  .card {
+    width: 700px; 
+    border:none;
+  }
+  
+  /* Texto del color */
+  #color {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: grey;
+  }
+  
+  /* Botones */
+  .btn-color {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* Estilos de los botones */
+  .btn-outline-primary,
+  .btn-outline-secondary,
+  .btn-outline-danger,
+  #btn-aleatorio,
+  .btn-outline-info {
+    background-color: transparent;
+    color: #aaa6a6;
+    border-color: inherit;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-secondary:hover,
+  .btn-outline-danger:hover,
+  .btn-outline-info:hover,
+  #btn-aleatorio:hover {
+    background-color: inherit;
+    color: #454343;
+    border-color: inherit;
+  }
+  
+
+.card-header{
+    font-weight: bold;
+    color: rgb(177, 176, 176);
+    font-size: 40px;
+}
+  
+#btn-aleatorio {
+    width: 100%;
+    margin-top: 5px;
+
+}
