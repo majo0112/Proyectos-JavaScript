@@ -32,13 +32,13 @@ const colores = {
   });
   
   function generarColorHexAleatorio() {
-    let digitos = '0123456789ABCDEF'; // 16 opciones.
-    let color = '#'; // El color inicia con #.
+    let digitos = '0123456789ABCDEF'; 
+    let color = '#'; 
   
     for (let i = 0; i < 6; i++) {
-      // Escoger uno de los 16 digitos posibles.
+      
       let indiceAleatorio = Math.floor(Math.random() * 16);
-      // Agregarlo al codigo del color.
+      
       color += digitos[indiceAleatorio];
     }
     
