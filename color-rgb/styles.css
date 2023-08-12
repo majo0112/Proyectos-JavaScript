@@ -1,0 +1,77 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(23, 41, 56);
+  }
+
+   .card{
+    width: 600px;
+    margin: 30px;
+    
+   }
+
+  .card-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-body {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  label, p { 
+    margin: 20px;
+  }
+
+  .color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+
+  .generado {
+    width: 560px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(23, 41, 56);
+  }
+  
+  .color-info {
+    display: inline-block;
+  }
+  
+  .color-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .color-rgb {
+    color: #777;
+  }
+  
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #333;
+  margin: 0 auto; 
+  max-width: 80%;
+}
